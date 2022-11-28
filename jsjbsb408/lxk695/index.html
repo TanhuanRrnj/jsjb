@@ -16,15 +16,15 @@
 		background-color: darkgray;
 		z-index: 5;
 		transform-origin:50% 100%;
-		animation:wappear 2s;
-		animation-fill-mode: forwards；
+		animation:wappear 5s;
+		animation-fill-mode: forwards;
 		border-radius: 12px;
 	}
 	@keyframes wappear{
-		0%{transform:scaleY(0);}
-		10%{transform:scaleY(1);}
-		90%{transform:scaleY(1);}
-		100%{transform:scaleY(0);}
+		0%{transform:scaleX(0);}
+		10%{transform:scaleX(1);}
+		90%{transform:scaleX(1);}
+		100%{transform:scaleX(0);}
 	}
 	.window-content{
 		position: relative;
@@ -35,13 +35,13 @@
 		border: 1px solid brown;
 		width: 80%;
 		box-shadow: 0 4px 8px 0 gray;
-		animation: animatetop 2s;
-		animation-fill-mode: forwards；
+		animation: animatetop 5s;
+		animation-fill-mode: forwards;
 	}
 	@keyframes animatetop{
 		0%{top: -300px;opacity: 0;}
-		20%{top: 0;opacity: 1;}
-		80%{opacity:1;}
+		20%{top:40px;opacity: 1;}
+		80%{top:40px;opacity:1;}
 		100%{bottom:300px;opacity:0;}
 	}
 	.close{
